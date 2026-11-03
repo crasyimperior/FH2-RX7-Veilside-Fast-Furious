@@ -54,6 +54,6 @@ Tested on a clean (vanilla) Forza Horizon 2 + Azimuth 1.0.4 + Extra Options 0.4.
 - [Azimuth](https://almost-there-games.itch.io/azimuth) by Almost There Games.
 - [Extra Options](https://github.com/RokkuDayo/ForzaHorizon2_ExtraOptions) by RokkuDayo.
 - [fh2wheels / fh2-mods](https://github.com/conner-mcvay/fh2-mods) by conner-mcvay.
-- Port to Forza Horizon 2: crasyimperior.
+- Port to Forza Horizon 2: crasyimperior and Claude (Anthropic).
 
 *Forza Horizon is a trademark of Microsoft. This is a fan-made mod, not affiliated with Microsoft, Playground Games or Turn 10.*
