@@ -6,7 +6,7 @@ Han's orange-and-black **RX-7 Veilside Fortune** from *Tokyo Drift*, added to **
 
 This is a port of the Forza Horizon 6 mod **[Mazda RX-7 Veilside (FH6, Nexus Mods #299)](https://www.nexusmods.com/forzahorizon6/mods/299)** — all credit for the original Veilside model goes to its author.
 
-> **Note:** this is mostly a **visual mod (a \"skin\")**. Under the Veilside body, the car keeps the physics and handling of Forza Horizon 2's stock Mazda RX-7 (the game's MAZ_RX7_97 model): same engine, weight, upgrades and driving feel.
+> **Note:** this is mostly a **visual mod (a "skin")**. Under the Veilside body, the car keeps the physics and handling of Forza Horizon 2's stock Mazda RX-7 (the game's MAZ_RX7_97 model): same engine, weight, upgrades and driving feel.
 
 ## Features
 
