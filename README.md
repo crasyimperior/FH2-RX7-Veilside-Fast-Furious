@@ -2,7 +2,7 @@
 
 ![RX-7 Fast & Furious Edition](images/screenshot.png)
 
-Han's orange-and-black **RX-7 Veilside Fortune** from *Tokyo Drift*, added to **Forza Horizon 2** on PC as a brand new car (it does not replace the stock RX-7).
+Han's orange-and-black **RX-7 Veilside Fortune** from *Tokyo Drift*, added to **Forza Horizon 2** on PC as a brand new car (it does not replace the stock RX-7). You can paint it however you like in the game's paint shop: body, mirrors, vinyls and liveries all work.
 
 This is a port of the Forza Horizon 6 mod **[Mazda RX-7 Veilside (FH6, Nexus Mods #299)](https://www.nexusmods.com/forzahorizon6/mods/299)** — all credit for the original Veilside model goes to its author.
 
