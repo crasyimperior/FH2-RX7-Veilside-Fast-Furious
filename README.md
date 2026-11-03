@@ -11,7 +11,6 @@ This is a port of the Forza Horizon 6 mod **[Mazda RX-7 Veilside (FH6, Nexus Mod
 - **New car "RX-7 Fast & Furious Edition"** (car Id 2600), sold at the Autoshow under Mazda, with its own name and dealer pictures.
 - **Full Veilside body kit**: bumpers, wide fenders, side skirts, wing, exhaust, Veilside headlights and taillights.
 - **Veilside mirrors** that reflect the road in cockpit view and take the in-game mirror paint colour.
-- **Han's interior mirror** from the FH6 mod.
 - **Working lights**: projector headlights, red taillights at night and when braking, front and rear **turn signals**.
 - **Veilside badge** on the rear panel.
 - **Optional add-on — underglow**: orange neon tubes, orange ground light and orange cabin light, on with the headlights.
