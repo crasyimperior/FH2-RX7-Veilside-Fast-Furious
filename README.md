@@ -38,7 +38,7 @@ Tested on a clean (vanilla) Forza Horizon 2 + Azimuth 1.0.4 + Extra Options 0.4.
 
 ## Known issues
 
-- **Turn damage off for this car.** Collisions can leave black patches on the kit.
+- **⚠️ You must turn damage OFF (Options → Difficulty → Damage: Cosmetic/Off) before driving this car.** With damage on, any crash causes visual glitches on the Veilside kit (black patches and stretched body parts). With damage off, everything stays clean.
 - **You can see through the body a little in some places** (small gaps between kit panels, mostly at night when the cabin light is on). It is only visible up close and does not affect gameplay.
 - **Cockpit view and photo mode differ around the A-pillars.** In cockpit view the game does not draw the main Veilside body, so the inner edge of the windscreen pillar shows dark instead of in the car colour (photo mode shows it correctly).
 - fh2wheels can occasionally crash the game at startup on Azimuth 1.0.4; launching again works.
