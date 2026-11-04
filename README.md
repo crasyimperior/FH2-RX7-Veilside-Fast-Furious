@@ -8,9 +8,15 @@ This is a port of the Forza Horizon 6 mod **[Mazda RX-7 Veilside (FH6, Nexus Mod
 
 > **Note:** this is mostly a **visual mod (a "skin")**. Under the Veilside body, the car keeps the physics and handling of Forza Horizon 2's stock Mazda RX-7 (the game's MAZ_RX7_97 model): same engine, weight, upgrades and driving feel.
 
+> [!WARNING]
+> **Car ID changed in v1.1.** v1.0 uses car Id **2600**, v1.1 uses car Id **19920**.
+> Only install v1.1 if v1.0 conflicts with another car pack that also uses Id 2600. Otherwise v1.0 is fine.
+> **If you already bought the RX-7 with v1.0 and update to v1.1, the car disappears from your garage and you will have to buy it again** at the Autoshow.
+> To update, delete the old `MAZ_RX7_92 Veilside` folder from `mods\` first. The Neons add-on is unchanged.
+
 ## Features
 
-- **New car "RX-7 Fast & Furious Edition"** (car Id 2600), sold at the Autoshow under Mazda, with its own name and dealer pictures.
+- **New car "RX-7 Fast & Furious Edition"** (car Id 19920 in v1.1, 2600 in v1.0), sold at the Autoshow under Mazda, with its own name and dealer pictures.
 - **Full Veilside body kit**: bumpers, wide fenders, side skirts, wing, exhaust, Veilside headlights and taillights.
 - **Veilside mirrors** that reflect the road in cockpit view and take the in-game mirror paint colour.
 - **Working lights**: projector headlights, red taillights at night and when braking, front and rear **turn signals**.
@@ -26,12 +32,12 @@ This is a port of the Forza Horizon 6 mod **[Mazda RX-7 Veilside (FH6, Nexus Mod
 
 ## Installation
 
-1. Download `rx7_Veilside_EN.zip` from the [Releases](../../releases) page.
+1. Download the zip from the [Releases](../../releases) page: `rx7_Veilside_EN.zip` (v1.0, Id 2600) or `rx7_Veilside_EN_v1.1.zip` (v1.1, Id 19920, only if you have an ID conflict).
 2. Extract it into your Azimuth folder (the one containing `azimuth.exe`).
 3. You now have three folders in `mods\`:
    - `MAZ_RX7_92 Veilside` — the car.
    - `MAZ_RX7_92 Veilside Neons` — the underglow add-on (optional; delete it if you don't want neons).
-   - `fh2wheels plugin` — the wider track (`fh2wheels.ini`: `2600=40,158`).
+   - `fh2wheels plugin` — the wider track (`fh2wheels.ini`: `19920=40,158` in v1.1, `2600=40,158` in v1.0).
 4. Launch the game and find the car at the Autoshow (Mazda).
 
 Extra Options adds new folders to `mods\loadorder.txt` automatically. Keep **Neons after the car**.
