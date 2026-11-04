@@ -9,10 +9,10 @@ This is a port of the Forza Horizon 6 mod **[Mazda RX-7 Veilside (FH6, Nexus Mod
 > **Note:** this is mostly a **visual mod (a "skin")**. Under the Veilside body, the car keeps the physics and handling of Forza Horizon 2's stock Mazda RX-7 (the game's MAZ_RX7_97 model): same engine, weight, upgrades and driving feel.
 
 > [!WARNING]
-> **Car ID changed in v1.1.** v1.0 uses car Id **2600**, v1.1 uses car Id **19920**.
-> Only install v1.1 if v1.0 conflicts with another car pack that also uses Id 2600. Otherwise v1.0 is fine.
+> **Car ID changed in v1.1.** v1.0 uses car Id **2600**, v1.1 and v1.2 use car Id **19920**.
+> v1.1 was made for players whose v1.0 conflicts with another car pack that also uses Id 2600. v1.2 keeps Id 19920 and adds the underglow colour setting.
 > **If you already bought the RX-7 with v1.0 and update to v1.1, the car disappears from your garage and you will have to buy it again** at the Autoshow.
-> To update, delete the old `MAZ_RX7_92 Veilside` folder from `mods\` first. The Neons add-on is unchanged.
+> To update, delete the old `MAZ_RX7_92 Veilside` and `MAZ_RX7_92 Veilside Neons` folders from `mods\` first.
 
 ## Features
 
@@ -21,7 +21,7 @@ This is a port of the Forza Horizon 6 mod **[Mazda RX-7 Veilside (FH6, Nexus Mod
 - **Veilside mirrors** that reflect the road in cockpit view and take the in-game mirror paint colour.
 - **Working lights**: projector headlights, red taillights at night and when braking, front and rear **turn signals**.
 - **Veilside badge** on the rear panel.
-- **Optional add-on — underglow**: orange neon tubes, orange ground light and orange cabin light, on with the headlights.
+- **Optional add-on — underglow**: neon tubes, ground light and cabin light, on with the headlights. Orange by default, **any colour you want** since v1.2 (see below).
 - **Wider track** for the Veilside stance through fh2wheels.
 
 ## Requirements
@@ -32,7 +32,7 @@ This is a port of the Forza Horizon 6 mod **[Mazda RX-7 Veilside (FH6, Nexus Mod
 
 ## Installation
 
-1. Download the zip from the [Releases](../../releases) page: `rx7_Veilside_EN.zip` (v1.0, Id 2600) or `rx7_Veilside_EN_v1.1.zip` (v1.1, Id 19920, only if you have an ID conflict).
+1. Download `rx7_Veilside_EN_v1.2.zip` from the [Releases](../../releases) page (older versions are still there: `rx7_Veilside_EN.zip` = v1.0 with Id 2600).
 2. Extract it into your Azimuth folder (the one containing `azimuth.exe`).
 3. You now have three folders in `mods\`:
    - `MAZ_RX7_92 Veilside` — the car.
@@ -41,6 +41,22 @@ This is a port of the Forza Horizon 6 mod **[Mazda RX-7 Veilside (FH6, Nexus Mod
 4. Launch the game and find the car at the Autoshow (Mazda).
 
 Extra Options adds new folders to `mods\loadorder.txt` automatically. Keep **Neons after the car**.
+
+## Changing the underglow colour (v1.2)
+
+1. **Close the game.**
+2. Open `mods\MAZ_RX7_92 Veilside Neons\color.txt`, write the colour you want on the **first line** and save. For example:
+   ```
+   purple
+   ```
+   - Colour names: `red`, `orange`, `yellow`, `green`, `cyan`, `blue`, `purple`, `pink`, `white`
+   - Or R,G,B from 0 to 255: `255,0,0`
+   - Or hex: `#FF0000`
+   - Optional: add a line `interior = blue` for a different cabin light colour (by default the cabin takes the underglow colour).
+3. Double-click **`Apply color.bat`** in the same folder. The window says `Done` when the colour is applied.
+4. Start the game and turn the headlights on.
+
+The colour changes the neon tubes, the ground light and the cabin light. The tubes show day and night; the ground light and the cabin light only show at night. Write `orange` and apply again to go back to the original colour.
 
 Tested on a clean (vanilla) Forza Horizon 2 + Azimuth 1.0.4 + Extra Options 0.4.4.
 
